@@ -169,4 +169,46 @@ Response:
     "total_income": 1500,
     "total_expense": 200,
     "balance": 1300
-}
+} 
+
+## Postman Screen Shots 
+
+`POST` 
+![Screenshot (106)](https://github.com/user-attachments/assets/e86b11ae-86fd-49d2-b1b1-b50b3a04b279) 
+
+`GET` 
+![Screenshot (107)](https://github.com/user-attachments/assets/ba8b0b13-4dfa-4372-bd2e-eff53003225f) 
+
+`GET` by Id `Not Found Case`
+![Screenshot (108)](https://github.com/user-attachments/assets/caf0d1ba-3d3f-44b0-a11a-1db119e5f312)  
+
+`GET` by Id `Success` 
+![Screenshot (109)](https://github.com/user-attachments/assets/e51cccba-d910-4ab6-b240-22f5baeb2ebc) 
+
+`PUT` by Id `Success` 
+![Screenshot (110)](https://github.com/user-attachments/assets/6203ab37-e136-431e-972b-ed8d00009b91) 
+
+`DELETE` by Id `Not Found Case` 
+![Screenshot (111)](https://github.com/user-attachments/assets/4d93ed6b-0323-4589-9a42-433ed80e4367) 
+
+`DELETE` by Id `Success Case` 
+![Screenshot (112)](https://github.com/user-attachments/assets/9ff67cda-9dbf-4768-bf2e-7c960f55e6b7) 
+
+`GET` Summary 
+![Screenshot (113)](https://github.com/user-attachments/assets/f9b37be3-47dd-45f5-abb8-123db2cd6bd0) 
+
+# Deployed Link: 
+
+- https://personal-expense-tracker-wp9n.onrender.com 
+- endpoints are `/transactions, /transactions/:id , /summary`
+  
+
+
+
+
+
+
+
+
+
+
