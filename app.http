@@ -1,0 +1,43 @@
+POST http://localhost:3000/transactions 
+Content-Type: application/json  
+
+
+
+
+    {
+        "type": "income",
+        "category": 2,
+        "amount": 2500,
+        "date": "2024-10-22",
+        "description": "Groceries",
+        "status": "completed"
+    }
+
+
+
+#### 
+
+GET http://localhost:3000/transactions 
+#### 
+
+GET http://localhost:3000/transactions/2 
+### 
+
+PUT http://localhost:3000/transactions/2
+Content-Type: application/json 
+
+{
+    
+    "type": "expense",
+    "category": 1,
+    "amount": 1000,
+    "date": "2024-10-24",
+    "description": "Updated Salary",
+    "status": "completed"
+}
+### 
+
+DELETE http://localhost:3000/transactions/2 
+#### 
+
+GET http://localhost:3000/summary
